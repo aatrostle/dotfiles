@@ -1,0 +1,24 @@
+" set line numbers
+set number
+
+" set indentation rules
+set expandtab softtabstop=2 shiftwidth=4
+
+" set syntax highlighting
+syntax enable
+
+colorscheme desert
+
+" set files, backups, undo
+set nobackup
+set nowb
+set noswapfile
+
+" set indentation and wrap
+set ai
+set si
+set wrap
+
+" set long lines as breaks
+map j gj
+map k gk
