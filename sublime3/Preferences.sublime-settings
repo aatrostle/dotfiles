@@ -2,11 +2,11 @@
 	"animation_enabled": false,
 	"color_scheme": "Packages/User/LastNight.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 14.0,
+	"font_size": 15.0,
 	"highlight_modified_tabs": false,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Vintage"
 	],
 	"rulers":
 	[
