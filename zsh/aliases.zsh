@@ -10,3 +10,4 @@ alias grunt="nocorrect grunt"
 alias bower="noglob bower"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias cgst="clear && git status"
+alias npm-exec='PATH=$(npm bin):$PATH'
