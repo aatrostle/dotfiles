@@ -1,0 +1,21 @@
+# ohmyzsh aliases
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+
+# git aliases
+alias glgo="git log --decorate --all --graph --oneline"
+alias gm='git merge --no-ff'
+alias cgst="clear && git status"
+
+# sublime aliases
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# npm aliases
+alias npm-exec='PATH=$(npm bin):$PATH'
+alias npmlg='npm ls --depth=0 --global'
+alias npmll='npm ls --depth=0'
+
+# utility aliases
+alias kguard='pkill -f spork'
+alias grunt="nocorrect grunt"
+alias bower="noglob bower"
