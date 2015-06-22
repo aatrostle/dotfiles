@@ -1,6 +1,7 @@
 # ohmyzsh aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias zshreload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
 # git aliases
 alias glgo="git log --decorate --all --graph --oneline"
@@ -14,6 +15,9 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias npm-exec='PATH=$(npm bin):$PATH'
 alias npmlg='npm ls --depth=0 --global'
 alias npmll='npm ls --depth=0'
+
+# rails aliases
+alias rails_local='rails s -b 0.0.0.0'
 
 # utility aliases
 alias kguard='pkill -f spork'

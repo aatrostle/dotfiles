@@ -62,7 +62,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/id_rsa"
+# export SSH_KEY_PATH="/Users/aarontrostle/.ssh/aaron_id_rsa"
 
 # TODO define aliases within the ZSH_CUSTOM folder
 source ~/.aliases
