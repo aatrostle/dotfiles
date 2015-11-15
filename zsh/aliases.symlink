@@ -23,3 +23,6 @@ alias rails_local='rails s -b 0.0.0.0'
 alias kguard='pkill -f spork'
 alias grunt="nocorrect grunt"
 alias bower="noglob bower"
+
+# git aliases
+alias gdc='git diff --cached'
