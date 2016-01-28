@@ -7,6 +7,7 @@ alias zshreload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias glgo="git log --decorate --all --graph --oneline"
 alias gm='git merge --no-ff'
 alias cgst="clear && git status"
+alias gdc='git diff --cached'
 
 # sublime aliases
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
@@ -18,6 +19,9 @@ alias npmll='npm ls --depth=0'
 
 # rails aliases
 alias rails_local='rails s -b 0.0.0.0'
+
+# insights aliases
+alias i_test='bundle exec spring stop && bundle exec guard'
 
 # utility aliases
 alias kguard='pkill -f spork'
