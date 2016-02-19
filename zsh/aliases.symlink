@@ -8,6 +8,7 @@ alias glgo="git log --decorate --all --graph --oneline"
 alias gm='git merge --no-ff'
 alias cgst="clear && git status"
 alias gdc='git diff --cached'
+alias gdf='git diff --color | diff-so-fancy'
 
 # sublime aliases
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
@@ -27,6 +28,3 @@ alias i_test='bundle exec spring stop && bundle exec guard'
 alias kguard='pkill -f spork'
 alias grunt="nocorrect grunt"
 alias bower="noglob bower"
-
-# git aliases
-alias gdc='git diff --cached'
