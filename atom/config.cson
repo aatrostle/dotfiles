@@ -1,0 +1,30 @@
+"*":
+  "atom-color-highlight": {}
+  autosave:
+    enabled: true
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "atom-color-highlight"
+      "linter-scss-lint"
+      "linter-coffeelint"
+    ]
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "7f3c4b93-ce2b-6d44-c3f0-ef2fd619168b"
+  linter: {}
+  "one-dark-ui": {}
+  pigments:
+    ignoredScopes: [
+      "\\.comment"
+    ]
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
