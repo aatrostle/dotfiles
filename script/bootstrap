@@ -128,6 +128,18 @@ link_file () {
   fi
 }
 
+install_atomfiles () {
+  info 'installing atom preferences'
+
+  local overwrite_all=false backup_all=false skip_all=false
+
+  for src in $(find -H "$DOTFILES_ROOT/atom/" -type f )
+  do
+    dst="$HOME/.atom/$(basename "${src}")"
+    link_file "$src" "$dst"
+  done
+}
+
 # finds all files ending with `.symlink`
 # symlinks files from `dotfiles` to `~`
 install_dotfiles () {
@@ -144,6 +156,7 @@ install_dotfiles () {
 
 setup_gitconfig
 install_dotfiles
+install_atomfiles
 
 echo ''
 echo '  All installed!'
