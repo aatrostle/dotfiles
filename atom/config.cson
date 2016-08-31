@@ -33,19 +33,23 @@
       "linter-scss-lint"
       "linter-coffeelint"
       "linter-rubocop"
+      "language-todo"
     ]
+    packagesWithKeymapsDisabled: []
     themes: [
       "atom-material-ui"
       "solarized-light-syntax"
     ]
   editor:
-    fontSize: 13
     invisibles: {}
+    preferredLineLength: 100
     scrollPastEnd: true
     showInvisibles: true
   emmet: {}
   "exception-reporting":
     userId: "7f3c4b93-ce2b-6d44-c3f0-ef2fd619168b"
+  "git-diff":
+    showIconsInEditorGutter: true
   linter: {}
   "linter-rubocop": {}
   "one-dark-ui": {}
@@ -56,3 +60,6 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+".text.todo":
+  editor:
+    preferredLineLength: 100

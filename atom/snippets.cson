@@ -5,6 +5,16 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
+  'mocha/describe':
+    'prefix': 'desc'
+    'body': """
+      describe('',() => {});
+    """
+  'mocha/it':
+    'prefix': 'it'
+    'body': """
+      it('',() => {});
+    """
   'Webpack config':
     'prefix': 'wpc'
     'body': """
