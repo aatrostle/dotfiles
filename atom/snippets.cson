@@ -8,12 +8,12 @@
   'mocha/describe':
     'prefix': 'desc'
     'body': """
-      describe('',() => {});
+      describe('${1:feature}', () => {$2});$3
     """
   'mocha/it':
     'prefix': 'it'
     'body': """
-      it('',() => {});
+      it('${1:action}', () => {$2});$3
     """
   'Webpack config':
     'prefix': 'wpc'
