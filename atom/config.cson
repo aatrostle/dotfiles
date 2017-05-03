@@ -5,16 +5,8 @@
   "atom-color-highlight": {}
   "atom-material-ui":
     colors:
-      abaseColor:
-        red: 236
-        green: 64
-        blue: 122
-        alpha: 1
-      accentColor:
-        red: 70
-        green: 255
-        blue: 193
-        alpha: 1
+      abaseColor: "#ec407a"
+      accentColor: "#46ffc1"
       predefinedColor: "Pink"
     tabs:
       compactTabs: true
@@ -34,13 +26,16 @@
       "linter-coffeelint"
       "linter-rubocop"
       "language-todo"
+      "react"
     ]
     packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "solarized-light-syntax"
     ]
   editor:
+    fontSize: 15
     invisibles: {}
     preferredLineLength: 100
     scrollPastEnd: true

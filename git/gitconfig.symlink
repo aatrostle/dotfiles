@@ -5,6 +5,7 @@
 	email = aaron.trostle@gmail.com
 [core]
 	excludesfile = /Users/aarontrostle/.gitignore_global
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =

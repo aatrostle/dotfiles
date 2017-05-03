@@ -43,6 +43,11 @@ var pushRight = slate.operation("push", {
   "style": "bar-resize:screenSizeX*0.75",
 })
 
+var pushDoubleRight = slate.operation("push", {
+  "direction": "right",
+  "style": "bar-resize:screenSizeX*0.5",
+})
+
 var pushLeft = slate.operation("push", {
   "direction": "left",
   "style": "bar-resize:screenSizeX*0.75",
@@ -66,6 +71,7 @@ slate.bindAll({
   "up:e,cmd": visor,
   "down:e,cmd": fullscreen,
   "right:e,cmd": pushRight,
+  "right:e,cmd,shift": pushDoubleRight,
   "left:e,cmd": pushLeft,
   "space:e,cmd": corner,
 })
