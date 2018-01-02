@@ -39,7 +39,7 @@ ZSH_THEME="aarontrostle"
 
 # plugins can be found in `~/.oh-my-zsh/plugins/*`
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew git rvm sublime zsh_reload)
+plugins=(brew git rvm sublime zsh_reload npm nvm yarn)
 
 # Might need $PATH, https://github.com/wayneeseguin/rvm/issues/1351#issuecomment-10939525
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -89,3 +89,5 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
+
+eval $(thefuck --alias)
